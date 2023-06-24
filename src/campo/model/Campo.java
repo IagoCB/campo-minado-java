@@ -58,6 +58,7 @@ public class Campo {
             if (vizinhacaSegura()) {
                 vizinhos.forEach(Campo::abrir);
             }
+            return true;
         }
         return false;
     }

@@ -34,7 +34,7 @@ public class CampoTeste {
     }
 
     @Test
-    void testeVizinhoDistancia1Emcima() {
+    void testeVizinhoDistancia1EmCima() {
         Campo vizinho = new Campo(2, 3);
         boolean resultado = campo.adicionarVizinho(vizinho);
         assertTrue(resultado);
@@ -136,5 +136,4 @@ public class CampoTeste {
 
         assertTrue(campo22.isAberto() && campo11.isFechado());
     }
-
 }
