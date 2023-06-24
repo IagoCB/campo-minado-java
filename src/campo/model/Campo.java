@@ -47,8 +47,6 @@ public class Campo {
     }
 
     public boolean abrir() {
-        System.out.println(aberto);
-        System.out.println(marcado);
         if (!aberto && !marcado) {
             aberto = true;
 
